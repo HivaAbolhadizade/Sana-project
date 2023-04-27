@@ -1,3 +1,4 @@
+{% load static %}
 <html lang="fa">
     <head>
         <meta charset="UTF-8" />
@@ -8,8 +9,9 @@
         <body>
         <img src="LOGO3-removebg.png" alt="sana logo">
         <h1>به سیستم هوشمند سانا خوش آمدید</h1>
-        <a href="LoginForm/login.html" class="btnH">ورود</a>
-        <a href="SignUpForm/signup.html"class="btnH">ثبت نام</a>
+        <a href="accounts/login" class="btnH">ورود</a>
+        <a href="accounts/signup"class="btnH">ثبت نام</a>
         <img  src="HOME 2.svg" alt="">
+        <link rel="stylesheet" href="{% static 'accounts/staticlogin.css' %}">
         </body>
 </html>

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="signupstatic">
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="homepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sana/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sana/templates/Sana/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/templates/Sana/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sana/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682571442552</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="homepage">
+      <created>1682572332030</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682572332030</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,6 +118,7 @@
     <MESSAGE value="login" />
     <MESSAGE value="signup" />
     <MESSAGE value="signupstatic" />
-    <option name="LAST_COMMIT_MESSAGE" value="signupstatic" />
+    <MESSAGE value="homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage" />
   </component>
 </project>
