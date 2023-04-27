@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Ingrid+Darling&family=Lalezar&display=swap');
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    
+    background: #BFB0D2;
+    font-family: 'Harmattan', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.7;
+    
+}
