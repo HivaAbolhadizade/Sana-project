@@ -4,3 +4,6 @@ from django.contrib.auth import login
 
 def login_view(request):
     return render(request, 'accounts/login.html', {})
+
+def home(request):
+    return render()
