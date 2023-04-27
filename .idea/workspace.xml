@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="homepage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/templates/Sana/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/templates/Sana/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="first:)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682572332030</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first:)">
+      <created>1682573137548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682573137548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +121,7 @@
     <MESSAGE value="signup" />
     <MESSAGE value="signupstatic" />
     <MESSAGE value="homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="homepage" />
+    <MESSAGE value="first:)" />
+    <option name="LAST_COMMIT_MESSAGE" value="first:)" />
   </component>
 </project>
