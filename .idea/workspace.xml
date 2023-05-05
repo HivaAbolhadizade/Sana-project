@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="media">
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="addMedia">
+      <change afterPath="$PROJECT_DIR$/classes/templates/classes/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sana/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sana/templates/Sana/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/templates/Sana/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sana/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/static/accounts/staticsignup.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/accounts/staticsignup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -32,7 +40,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2OhFJlxbnushwULlgfVniHtn5CF" />
   <component name="ProjectViewState">
@@ -46,6 +54,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sana-project\sanaproject\Sana\Class" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -139,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682573624073</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="addMedia">
+      <created>1682575179891</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682575179891</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +170,7 @@
     <MESSAGE value="homepage" />
     <MESSAGE value="first:)" />
     <MESSAGE value="media" />
-    <option name="LAST_COMMIT_MESSAGE" value="media" />
+    <MESSAGE value="addMedia" />
+    <option name="LAST_COMMIT_MESSAGE" value="addMedia" />
   </component>
 </project>

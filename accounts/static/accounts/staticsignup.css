@@ -99,14 +99,14 @@ h6 span {
   perspective: 800px;
   margin-top: 60px;
 }
-.card-3d-wrapper {
+.card-12d-wrapper {
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-12d;
+  transform-style: preserve-12d;
   transition: all 600ms ease-out;
 }
 .card-front,

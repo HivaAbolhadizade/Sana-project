@@ -27,19 +27,27 @@
                                     <div class="center-wrap">
                                         <div class="section text-center">
                                             <h4 class="mb-4 pb-3">ورود</h4>
-                                            <div class="form-group">
-                                                <input type="email" name="logemail" class="form-style"
-                                                    placeholder="نام کاربری" id="logemail" autocomplete="off">
-                                                <i class="input-icon uil uil-at"></i>
-                                            </div>
-                                            <div class="form-group mt-2">
-                                                <input type="password" name="logpass" class="form-style"
-                                                    placeholder="رمز عبور" id="logpass" autocomplete="off">
-                                                <i class="input-icon uil uil-lock-alt"></i>
-                                            </div>
-                                            <a href="#" class="btn mt-4">تایید</a>
-                                            <p class="mb-0 mt-4 text-center"><a href="#0" class="link">بازیابی
-                                                   رمز عبور</a></p>
+                                            <form action="" method="POST">
+       {{ form.non_field_errors }}
+
+    <div class="form-group" >
+
+<label form="{{ form.username.id_for_label }}"></label>
+        <input placeholder="نام کاربری"  autocomplete="off" class="form-style"
+              {{ form.username}} {{ form.username.errors }} >
+        <i class="input-icon uil uil-at"></i>
+
+    </div>
+    <div class="form-group mt-3">
+
+        <label form="{{ form.password.id_for_label }}"></label>
+        <input placeholder="رمز عبور"  autocomplete="off" class="form-style"
+               {{ form.password }} {{ form.password.errors }} >
+        <i class="input-icon uil uil-lock-alt"></i>
+    </div>
+        {% csrf_token%}
+    <button type="submit" class="btn mt-4">تایید</button>
+</form>
                                         </div>
                                     </div>
                                 </div>
@@ -52,3 +60,4 @@
     </div>
 </body>
 </html>
+

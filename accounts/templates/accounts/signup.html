@@ -17,37 +17,42 @@
     <div class="section">
         <div class="container">
             <div class="row full-height justify-content-center">
-                <div class="col-12 text-center align-self-center py-5">
-                    <div class="section pb-5 pt-5 pt-sm-2 text-center">
-                        <h6 class="mb-0 pb-3"><span>  ^-^ به سیستم هوشمند سانا خوش آمدید ^-^ </h6>
+                <div class="col-200 text-center align-self-center py-6">
+                    <div class="section pb-200 pt-200 pt-sm-200 text-center">
+                        <h6 class="mb-0 pb-3"><span>  ^-^ به سیستم هوشمند سانا خوش آمدید ^-^ </span></h6>
                         <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
                         <div class="card-3d-wrap mx-auto">
-                            <div class="card-3d-wrapper">
+                            <div class="card-12d-wrapper">
                                 <div class="card-front">
                                     <div class="center-wrap">
-                                        <div class="section text-center">
-                                            <h4 class="mb-4 pb-3">ثبت نام</h4>
-                                            <div class="form-group">
-                                                <input type="text" name="logname" class="form-style"
-                                                    placeholder=" نام و نام خانوادگی مدیر" id="logname" autocomplete="off">
-                                                <i class="input-icon uil uil-user"></i>
-                                            </div>
-                                            <div class="form-group mt-2">
-                                                <input type="SchoolName" name="logeSchoolName" class="form-style"
-                                                    placeholder="نام مدرسه" id="SchoolName" autocomplete="off">
-                                                    <i class="input-icon uil uil-graduation-cap"></i>
-                                            </div>
-                                            <div class="form-group mt-2">
-                                                <input type="email" name="logemail" class="form-style"
-                                                    placeholder="نام کاربری" id="logemail" autocomplete="off">
-                                                <i class="input-icon uil uil-at"></i>
-                                            </div>
-                                            <div class="form-group mt-2">
-                                                <input type="text" name="logpass" class="form-style"
-                                                    placeholder="رمز عبور" id="logpass" autocomplete="off">
-                                                <i class="input-icon uil uil-lock-alt"></i>
-                                            </div>
-                                            <a href="accounts/login.html" class="btn mt-4">ثبت نام</a>
+                                            <form action="" method="POST">
+                                                    <div class="form-group mt-4" >
+
+<label form="{{ form.username.id_for_label }}"></label>
+        <input placeholder="نام کاربری"  autocomplete="off" class="form-style"
+              {{ form.username}} {{ form.username.errors }} >
+        <i class="input-icon uil uil-at"></i>
+
+    </div>
+                                                    <div class="form-group" >
+
+<label form="{{ form.password1.id_for_label }}"></label>
+        <input placeholder="رمز عبور"  autocomplete="off" class="form-style"
+              {{ form.password1}} {{ form.password1.errors }} >
+        <i class="input-icon uil uil-lock-alt"></i>
+
+    </div>
+                                                    <div class="form-group" >
+
+<label form="{{ form.password2.id_for_label }}"></label>
+        <input placeholder="تکرار رمز عبور"  autocomplete="off" class="form-style"
+              {{ form.password2}} {{ form.password2.errors }} >
+        <i class="input-icon uil uil-lock-alt"></i>
+
+    </div>
+  {% csrf_token %}
+  <button type="submit" class="btn mt">ثبت نام</button>
+                                            </form>
                                         </div>
                                     </div>
                                 </div>
