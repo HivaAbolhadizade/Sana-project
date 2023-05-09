@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'accounts',
     'Sana',
      'classes',
+    'scores',
 ]
 
 MIDDLEWARE = [

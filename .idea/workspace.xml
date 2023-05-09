@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="addMedia">
-      <change afterPath="$PROJECT_DIR$/classes/templates/classes/classes.html" afterDir="false" />
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="completeSignupLogin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sana/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/templates/Sana/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/templates/Sana/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sana/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/static/accounts/staticsignup.css" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/static/accounts/staticsignup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682575179891</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="completeSignupLogin">
+      <created>1683291861973</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1683291861973</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +171,7 @@
     <MESSAGE value="first:)" />
     <MESSAGE value="media" />
     <MESSAGE value="addMedia" />
-    <option name="LAST_COMMIT_MESSAGE" value="addMedia" />
+    <MESSAGE value="completeSignupLogin" />
+    <option name="LAST_COMMIT_MESSAGE" value="completeSignupLogin" />
   </component>
 </project>
