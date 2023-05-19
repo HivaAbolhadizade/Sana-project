@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Create Students</title>
+</head>
+<body>
+
+  <!--
+  <label for="Name">Name:</label>
+  <input type="text" id="Name" name="Name">
+  <label for="Score">Score:</label>
+  <input type="text" id="Score" name="Score">
+  -->
+<!--  <h1>Renew: {{ students.name }}</h1>-->
+<!--  <p>Borrower: {{ students.score }}</p>-->
+<!--  <p {% if students.is_overdue %} class="text-danger"{% endif %} >Due date: {{ students.due_back }}</p>-->
+
+  <form action="" method="post">
+    {% csrf_token %}
+    <table>
+    {{ form.as_table }}
+    </table>
+    <input type="submit" value="ثبت">
+  </form>
+
+<!--  <form action="" method="Post">-->
+<!--      {{form}}-->
+<!--      {% csrf_token%}-->
+<!--      <button type="submit" class="btn mt-4">ثبت</button>-->
+
+
+<!--  </form>-->
+
+      {% for student in students %}
+        <li>
+            {{student.name}}
+            {{student.score}}
+        </li>
+      {% endfor %}
+
+
+      {% if user.is_authenticated %}
+      <form action='{% url "accounts:logout" %}' method="POST">
+          {% csrf_token %}
+          <button class='btn btn-link'>logout</button>
+      </form>
+      {% endif %}
+
+
+ <!-- <h1>  </h1>
+  <div class=""container> Students </div>
+
+  <form method="POST">
+    <ul class="list-group">
+        {% for students in Students %}
+
+            <li class="list-group-itemtodo-item">
+              {{Students.name}}
+              <a class='btn btn-danger' href="{% url 'todoapp:todo_item_delete' students.id %}">X</a>
+            </li>
+
+        {% endfor %}
+        </ul>
+
+</form>-->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

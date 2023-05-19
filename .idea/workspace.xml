@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="completeSignupLogin">
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="scores app">
+      <change afterPath="$PROJECT_DIR$/scores/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scores/templates/scores/create_Students.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sana/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/templates/scores/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores/templates/scores/scores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -159,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683291861973</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="scores app">
+      <created>1683618268335</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1683618268335</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -172,6 +184,7 @@
     <MESSAGE value="media" />
     <MESSAGE value="addMedia" />
     <MESSAGE value="completeSignupLogin" />
-    <option name="LAST_COMMIT_MESSAGE" value="completeSignupLogin" />
+    <MESSAGE value="scores app" />
+    <option name="LAST_COMMIT_MESSAGE" value="scores app" />
   </component>
 </project>
