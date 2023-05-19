@@ -5,6 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-"classes"
+"classes'
+     {% if user.is_authenticated %}
+      <form action='{% url "scores:scores" %}' method="POST">
+          {% csrf_token %}
+          <button class='btn btn-link'>کلاس هفتم</button>
+      </form>
+      {% endif %}
 </body>
 </html>
