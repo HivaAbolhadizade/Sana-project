@@ -17,7 +17,7 @@ body {
 width: 321px;
 height: 362px;
 left: 559px;
-top: -60px;
+top: -80px;
 
 }
 .ttle{
@@ -25,7 +25,7 @@ top: -60px;
 width: 625px;
 height: 75px;
 left: 510px;
-top: 211px;
+top: 180px;
 
 font-family: 'Lalezar';
 font-style: normal;
@@ -34,14 +34,6 @@ font-size: 35px;
 line-height: 75px;
 
 color: #000000;
-}
-.pic2{
-  position: absolute;
-width: 1448px;
-height: 710px;
-left: 3px;
-top: 327px;
-
 }
 .btnH{
   display: flex;
@@ -59,7 +51,7 @@ bottom: 86.62%;
 color: #000000;
 background: #F3F0E6;
 border-radius: 30px;
-top: 360px;
+top: 270px;
 left: 760px;
 width: 100px;
 }
@@ -79,7 +71,16 @@ bottom: 86.62%;
 font-size: x-large;
 background: #F3F0E6;
 border-radius: 30px;
-top: 360px; 
+top: 270px;
 left: 560px;
 width: 100px;
+}
+.pic2{
+  position: absolute;
+  width: 1375px;
+  height: 649px;
+  left: 65px;
+  top: 280px;
+
+
 }
