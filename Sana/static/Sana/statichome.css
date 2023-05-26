@@ -35,6 +35,14 @@ line-height: 75px;
 
 color: #000000;
 }
+.pic2{
+  position: absolute;
+width: 1448px;
+height: 710px;
+left: 3px;
+top: 327px;
+
+}
 .btnH{
   display: flex;
 flex-direction: column;
@@ -74,13 +82,4 @@ border-radius: 30px;
 top: 360px; 
 left: 560px;
 width: 100px;
-}
-.pic2{
-  position: absolute;
-  width: 1375px;
-  height: 649px;
-  left: 65px;
-  top: 299px;
-  
-
 }

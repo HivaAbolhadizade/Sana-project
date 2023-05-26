@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="scores">
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/templates/classes/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/templates/classes/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sana/static/Sana/statichome.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/static/Sana/statichome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sana/templates/Sana/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Sana/templates/Sana/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/HOME 2.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,8 +173,26 @@
       <option name="project" value="LOCAL" />
       <updated>1684482551373</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="classes">
+      <created>1684484002640</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684484002640</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="accounts" />
@@ -187,6 +206,7 @@
     <MESSAGE value="completeSignupLogin" />
     <MESSAGE value="scores app" />
     <MESSAGE value="scores" />
-    <option name="LAST_COMMIT_MESSAGE" value="scores" />
+    <MESSAGE value="classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes" />
   </component>
 </project>
