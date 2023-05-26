@@ -17,7 +17,7 @@ body {
 width: 321px;
 height: 362px;
 left: 559px;
-top: -80px;
+top: -95px;
 
 }
 .ttle{
@@ -25,7 +25,7 @@ top: -80px;
 width: 625px;
 height: 75px;
 left: 510px;
-top: 180px;
+top: 155px;
 
 font-family: 'Lalezar';
 font-style: normal;
@@ -51,7 +51,7 @@ bottom: 86.62%;
 color: #000000;
 background: #F3F0E6;
 border-radius: 30px;
-top: 270px;
+top: 245px;
 left: 760px;
 width: 100px;
 }
@@ -71,16 +71,16 @@ bottom: 86.62%;
 font-size: x-large;
 background: #F3F0E6;
 border-radius: 30px;
-top: 270px;
+top: 245px;
 left: 560px;
 width: 100px;
 }
 .pic2{
   position: absolute;
   width: 1375px;
-  height: 649px;
+  height: 500px;
   left: 65px;
-  top: 280px;
+  top: 268px;
 
 
 }
