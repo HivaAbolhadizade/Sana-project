@@ -16,18 +16,23 @@
     <input type="submit" value="ثبت">
   </form>
 
-  <form action='{% url "scores:delete" %} ', method="POST">
-
-      {% csrf_token %}
-    <table>
-         {{ form.as_table }}
-    </table>
-
-        <input type="submit" value="حذف">
-  </form>
+ <form action="{% url 'scores:delete' %}" method="POST">
+  {% csrf_token %}
+  <table>
+    {% for field in form.visible_fields %}
+      {% if field.name == 'name' %}
+        <tr>
+          <th>{{ field.label_tag }}</th>
+          <td>{{ field }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </table>
+  <input type="submit" value="حذف">
+</form>
 
   <ol>
-      {% for student in students %}
+      {% for student in students|dictsort:"name" %}
 
         <li>
 
