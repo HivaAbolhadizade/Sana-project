@@ -8,26 +8,22 @@
 <body>
 
 
-  <form action="" method="post">
-    {% csrf_token %}
-    <table>
-    {{ form.as_table }}
-    </table>
-    <input type="submit" value="ثبت">
-  </form>
-
- <form action="{% url 'scores:delete' %}" method="POST">
+<form action="" method="post">
   {% csrf_token %}
-  <table>
-    {% for field in form.visible_fields %}
-      {% if field.name == 'name' %}
-        <tr>
-          <th>{{ field.label_tag }}</th>
-          <td>{{ field }}</td>
-        </tr>
-      {% endif %}
-    {% endfor %}
-  </table>
+  <div>
+    <label>نام و نام خانوادگی: {{ form.name }}</label>
+  </div>
+  <div>
+    <label>نمره انضباط: {{ form.score }}</label>
+  </div>
+  <input type="submit" value="ثبت">
+</form>
+
+<form action="{% url 'scores:delete' %}" method="POST">
+  {% csrf_token %}
+  <div>
+    <label>نام و نام خانوادگی: {{ form.name }}</label>
+  </div>
   <input type="submit" value="حذف">
 </form>
 
