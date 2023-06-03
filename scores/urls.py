@@ -8,7 +8,6 @@ urlpatterns = [
 
     #path('create/', students_view, name='scores'),
     path('', students_create, name = 'scores'),
-    path ('/delete',delete,name = 'delete' ),
     path ('/print',print,name = 'print' ),
 
 ]
