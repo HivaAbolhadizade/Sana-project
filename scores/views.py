@@ -54,3 +54,18 @@ def delete(request):
             student.delete()
         return redirect('scores:scores')
     return redirect('scores:scores')
+
+def print(request):
+    form = StudentsForm()
+    user = request.user
+    query = Students.objects.filter()
+
+
+    # for st in Students:
+        # return render(request, 'scores/create_students.html', {'name':st.name, 'sc': st.score})
+
+    for student in query:
+        list.append(student.name)
+
+    return render(request, 'scores/scores.html', {'form':form, 'students':query})
+

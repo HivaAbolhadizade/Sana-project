@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="last update">
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="front change">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_27_2023_1_07_AM_[Changes]/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_27_2023_1_07_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_27_2023_1_07_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scores/templates/scores/create_Students.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores/templates/scores/create_Students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/templates/scores/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores/templates/scores/scores.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685628791223</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="front change">
+      <created>1685631333517</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1685631333517</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +262,7 @@
     <MESSAGE value="classes" />
     <MESSAGE value="home" />
     <MESSAGE value="last update" />
-    <option name="LAST_COMMIT_MESSAGE" value="last update" />
+    <MESSAGE value="front change" />
+    <option name="LAST_COMMIT_MESSAGE" value="front change" />
   </component>
 </project>
