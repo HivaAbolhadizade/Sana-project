@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
+    <link rel="stylesheet" href="style.css" />
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کلاس ها</title>
 </head>
 <body>
-"classes'
-     {% if user.is_authenticated %}
-      <form action='{% url "scores:scores" %}' method="POST">
-          {% csrf_token %}
-          <button class='btn btn-link'>کلاس هفتم</button>
-      </form>
-      {% endif %}
+    {% if user.is_authenticated %}
+    <form action='{% url "scores:scores" %}' method="POST">
+        {% csrf_token %}
+    <div class="body">
+        <img class="bck"src="background.png" alt="">
+    <div class="header">
+        <h3>به سامانه هوشمند سانا خوش آمدید</h3>
+    </div>
+    <div class="middleBox">
+        <img class="recppl"src="Rectangle 1.png" alt="">
+            <img  class="logo"src="LOGO3-removebg 1.png" alt="">
+        <h4 class="Namayesh">نمایش کلاس ها</h4>
+        <div class="haftom">
+            <img class="recwhhaft"src="Rectangle 2.png" alt="">
+            <h4 class="haftomTitle">هفتم</h4>
+            
+            <a class="hft1 mt-2"href="#">هفت یک</a>
+            <a class="hft2 mt-4"href="#">هفت دو</a>
+            <a class="hft3 mt-8"href="#">هفت سه</a>
+        
+        </div>
+        <div class="hashtom">
+            <img class="recwhhasht"src="Rectangle 2.png" alt="">
+            <h4 class="hashtomTitle">هشتم</h4>
+         
+            <a class="hsht1 mt-2"href="#">هشتم یک</a>
+            <a class="hsht2 mt-4"href="#">هشتم دو</a>
+            <a class="hsht3 mt-8"href="#">هشتم سه</a>
+        
+        </div>
+        <div class="nohom">
+            <img class="recwhnoh"src="Rectangle 2.png" alt="">
+            <h4 class="nohomTitle">نهم</h4>
+            
+            <a class="noh1 mt-2"href="#">نهم یک</a>
+            <a class="noh2 mt-4"href="#">نهم دو</a>
+            <a class="noh3 mt-8"href="#">نهم سه</a>
+        
+        </div>
+    </div>
+    </div>
+</form>
+{% endif %}
 </body>
 </html>
