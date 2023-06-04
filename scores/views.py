@@ -16,6 +16,8 @@ def students_create(request):
         if form.is_valid():
             instance = form.save(commit= False)
             instance.clas = user
+            if instance.score > 20 or instance.score < 0:
+                return redirect('scores:scores')
             if instance.name in list:
                 student = Students.objects.filter(name = instance.name)
                 student.delete()
