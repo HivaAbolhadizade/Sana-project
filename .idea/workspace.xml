@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="front change">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_27_2023_1_07_AM_[Changes]/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_27_2023_1_07_AM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_27_2023_1_07_AM__Changes_.xml" beforeDir="false" />
+    <list default="true" id="37caff06-1c3b-4c16-b0be-660d1fb629db" name="Changes" comment="print">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/statics/classes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/templates/classes/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes/templates/classes/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scores/templates/scores/create_Students.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores/templates/scores/create_Students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scores/templates/scores/scores.html" beforeDir="false" afterPath="$PROJECT_DIR$/scores/templates/scores/scores.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scores/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scores/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/scores/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Sana-project/sanaproject/Sana/classes/media"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Sana-project\sanaproject\Sana\classes\media" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Sana-project\sanaproject\Sana\classes\media\classes" />
+      <recent name="E:\Sana-project\sanaproject\Sana\classes\statics\classes" />
       <recent name="E:\Sana-project\sanaproject\Sana\Class" />
     </key>
   </component>
@@ -233,7 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685631333517</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="print">
+      <created>1685792780179</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685792780179</updated>
+    </task>
+    <task id="LOCAL-00026" summary="print">
+      <created>1685792998245</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1685792998245</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +278,7 @@
     <MESSAGE value="home" />
     <MESSAGE value="last update" />
     <MESSAGE value="front change" />
-    <option name="LAST_COMMIT_MESSAGE" value="front change" />
+    <MESSAGE value="print" />
+    <option name="LAST_COMMIT_MESSAGE" value="print" />
   </component>
 </project>
