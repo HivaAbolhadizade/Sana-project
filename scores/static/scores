@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Ingrid+Darling&family=Lalezar&display=swap');
+body {
+    font-family: 'Lalezar', cursive;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #150759;
+    background-color: #F3F0E6;
+    overflow-x: hidden;
+  }
+.bck{
+    
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+.logo{
+  position: absolute;
+left: 10.49px;
+right: 86.63px;
+top: -53px;
+bottom:  300.45px;
+
+background: url(LOGO3-removebg.png);
+}
+.haft1{
+  position: absolute;
+left: 968.73px;
+right: 940.7px;
+top: -44px;
+bottom: 170.45px;
+left: 43.73%;
+right: 44.7%;
+
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 75px;
+
+color: #FFFFFF;
+
+}
+.rec5{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 87.7%;
+background: rgba(25, 106, 165, 0.75);
+
+}
+.recsabt{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 13.88%;
+bottom: 78.42%;
+border: 0.5px solid #301934;
+
+}
+.namein{
+  position: absolute;
+left: 83.71%;
+right: 1.94%;
+top: 16.65%;
+bottom: 80.18%;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+
+color: #000000;
+}
+.nameinbox{
+  position: absolute;
+left: 63.69%;
+right: 16.7%;
+top: 16.65%;
+bottom: 76.47%;
+
+
+background: #D9D9D9;
+border-radius: 30px;
+color: #000000;
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+text-align: right;
+padding: 0.5cm;
+}
+.enzebatin{
+  position: absolute;
+left: 48.14%;
+right: 12.79%;
+top:16.65%;
+bottom: 80.18%;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+
+color: #000000;
+
+}
+.enzebatinbox{
+  position: absolute;
+left: 36.29%;
+right: 52.46%;
+top: 16.65%;
+bottom: 76.47%;
+
+background: #D9D9D9;
+border-radius: 30px;
+color: #000000;
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+text-align: center;
+}
+.sabtbtn{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+gap: 10px;
+
+position: absolute;
+width: 109px;
+height: 66px;
+left: 181px;
+top: 109px;
+color: #000000;
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+background: rgba(205, 78, 43, 0.87);
+border-radius: 61px;
+}
+.rechazf{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 25.88%;
+bottom: 69.04%;
+border: 0.5px solid #301934;
+}
+.nameout{
+  position: absolute;
+left: 83.71%;
+right: 1.94%;
+top: 27.85%;
+bottom: 71.97%;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+
+color: #000000;
+}
+.nameoutbox{
+  position: absolute;
+  left: 63.69%;
+  right: 16.7%;
+  top: 27.85%;
+  bottom: 65% ;
+  
+  
+  background: #D9D9D9;
+  border-radius: 30px;
+  color: #000000;
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 53px;
+  text-align: right;
+  padding: 0.5cm;
+}
+.hazfbtn{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+gap: 10px;
+
+position: absolute;
+width: 119px;
+height: 66px;
+left: 783px;
+top: 198px;
+
+color: #000000;
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 53px;
+
+background: rgba(205, 78, 43, 0.87);
+border-radius: 61px;
+}
+.recshow{
+  position: absolute;
+left: 16.63%;
+right: 18.23%;
+top: 43.69%;
+bottom: -40%;
+
+background: rgba(164, 187, 197, 0.88);
+border-radius: 30px;
+border: 0.5px solid #301934;
+}
+.nameshow{
+  width: 195px;
+height: 50px;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 50px;
+
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px 50px;
+gap: 10px;
+
+position: absolute;
+width: 295px;
+height: 54px;
+left: 751px;
+top: 336px;
+
+background: rgba(205, 78, 43, 0.5);
+border-radius: 30px;
+}
+.scoreshow{
+  width: 124px;
+height: 50px;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 50px;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 2px 50px;
+gap: 10px;
+
+position: absolute;
+width: 224px;
+height: 54px;
+left: 345px;
+top: 336px;
+
+background: rgba(205, 78, 43, 0.5);
+border-radius: 30px;
+}
+.btnbtn-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  gap: 10px;
+  right: 56%;
+  position: absolute;
+  width: 119px;
+  height: 66px;
+  left: 111px;
+  top: 829px;
+  color: #000000;
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  background: rgba(205, 78, 43, 0.87);
+  border-radius: 61px;
+
+}
+.btn-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  gap: 10px;
+  right: 56%;
+  position: absolute;
+  width: 119px;
+  height: 66px;
+  left: 111px;
+  top: 929px;
+  color: #000000;
+  font-family: 'Lalezar';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  background: rgba(205, 78, 43, 0.87);
+  border-radius: 61px;
+
+}
+.showscore{
+  width: 124px;
+height: 50px;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 50px;
+
+color: #0000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+position: absolute;
+left: 30.15%;
+right: 59.6%;
+top: 47.66%;
+bottom: 47.46%;
+
+background: #D9D9D9;
+border-radius: 30px;
+}
+.showname{
+  width: 195px;
+height: 50px;
+
+font-family: 'Lalezar';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 50px;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+position: absolute;
+left: 50.94%;
+right: 23.7%;
+top: 47.66%;
+bottom: 47.46%;
+
+background: #D9D9D9;
+border-radius: 30px;
+
+
+}
