@@ -1,63 +1,82 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>ثبت نمرات انضباط</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'scores/staticscores.css' %}">
+    <title>صفحه اصلی</title>
 </head>
 <body>
+    
+    <div ><!--background -->
+<img class="bck" src="background.png" width="1500" alt="">
 
-
-<form action="" method="post">
-  {% csrf_token %}
-  <div>
-    <label>نام و نام خانوادگی: {{ form.name }}</label>
-  </div>
-  <div>
-    <label>نمره انضباط: {{ form.score }}</label>
-  </div>
-  <input type="submit" value="ثبت">
+    </div>
+    <div><!--header-->
+        <img  class="rec5" src="media/Rectangle 5.png" width="1500" height="100" alt="">
+        <h3 class="haft1">هفتم یک</h3>
+      <img  class="logo" src="media/LOGO3-removebg 1.png" width="186" height="187" alt="">
+     
+    </div>
+    {% csrf_token %}
+    <div><!--sabt-->
+        <div><!--name-->
+<img class="recsabt"src="media/Rectangle 8.png" width="1500" height="85" alt="">
+<form action="#" id="formSubmission" method="get">
+    <label class="namein">:نام و نام خانوادگی</label>
+    <input    class="nameinbox"type="text" name="Name" id="Name">
+</div>
+<div><!--enzebat-->
+    <label class="enzebatin">:نمره انضباط</label>
+    <input     class="enzebatinbox"type="number" name="enzebat" id="enzebat">
+</div>
+<input  class="sabtbtn"type="submit" value="ثبت" onclick="AddRow()">
 </form>
+    </div>
+    <form action="">
+    <div><!--hazf-->
+        {% csrf_token %}
+        <img class="rechazf"src="media/Rectangle 8.png" width="1500" height="85" alt="">
+        <form action="{% url 'scores:delete' %}" method="POST">
+            <label class="nameout">:نام و نام خانوادگی</label>
+            <input    class="nameoutbox"type="text" name="Name" id="Name">
+            <input class="hazfbtn" type="submit" value="حذف">
+    </div>
+   </form>
+   <div><!--background show information-->
+<img  class="madia/recshow"src="Rectangle 3.png" alt="">
+   </div>
+   <div><!--show information-->
+  <table id="data">
+      <tr><th class="nameshow">نام و نام خانوادگی</th>
+        <th class="scoreshow">نمره انظباط</th></tr>
+  </table>
+  <ol class="printtable">
+    {% for student in students|dictsort:"name" %}
 
-<form action="{% url 'scores:delete' %}" method="POST">
-  {% csrf_token %}
-  <div>
-    <label>نام و نام خانوادگی: {{ form.name }}</label>
+      <li>
+
+        <li class="showname"> {{student.name}} </li>
+        <li class="showscore">{{student.score}}</li>
+
+
+      </li>
+    {% endfor %}
+</ol>
   </div>
-  <input type="submit" value="حذف">
+  {% if user.is_authenticated %}
+  <form action='{% url "scores:print" %}' method="POST"><!--printlist-->
+    {% csrf_token %}
+    <button class='btnbtn-link'>چاپ لیست</button>
 </form>
-
-  <ol>
-      {% for student in students|dictsort:"name" %}
-
-        <li>
-
-            {{student.name}}
-            {{student.score}}
-
-
-        </li>
-      {% endfor %}
-  </ol>
-     {% if user.is_authenticated %}
-      <form action='{% url "scores:print" %}' method="POST">
-          {% csrf_token %}
-          <button class='btn btn-link'>چاپ لیست</button>
-      </form>
-      {% endif %}
-
-
-
-      {% if user.is_authenticated %}
-      <form action='{% url "accounts:logout" %}' method="POST">
-          {% csrf_token %}
-          <button class='btn btn-link'>خروج</button>
-      </form>
-      {% endif %}
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-
- </body>
+{% endif %}
+<form action='{% url "accounts:logout" %}' method="POST"><!--signout-->
+    {% csrf_token %}
+    <button class='btn-link'>خروج</button>
+</form>
+{% endif %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
 </html>
