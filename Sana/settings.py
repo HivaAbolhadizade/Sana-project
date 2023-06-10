@@ -50,6 +50,11 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+
+
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
@@ -72,6 +77,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'Sana.wsgi.application'
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 
 # Database
