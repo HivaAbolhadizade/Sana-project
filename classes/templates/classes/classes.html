@@ -1,58 +1,337 @@
-{% load static %}
+
 <!DOCTYPE html>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Harmattan:wght@400;700&family=Ingrid+Darling&family=Lalezar&display=swap');
+body {
+    font-family: 'Lalezar', cursive;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 1.7;
+    color: #150759;
+    background-color: #F3F0E6;
+    overflow-x: hidden;
+  }
+  .bck{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+  }
+  .header{
+    position: absolute;
+    left: 31.39%;
+    right: 26.54%;
+    top: -5%;
+    bottom: 89.75%;
+
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 75px;
+
+    color: #000000;
+
+  }
+  .recppl{
+    position: absolute;
+    left: 1.8%;
+    right: 1.73%;
+    top: 15%;
+    bottom: 3.71%;
+    border-radius: 30px;
+
+  }
+  .logo{
+    position: absolute;
+    left: 2.56%;
+    right: 78.66%;
+    top: 8.11%;
+    bottom: 65.33%;
+
+    background: url(LOGO3-removebg.png);
+  }
+  .Namayesh{
+    position: absolute;
+    left: 74.77%;
+    right: 6.44%;
+    top: 13.46%;
+    bottom: 74.22%;
+
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 75px;
+
+    color: #150759;
+
+  }
+  .recwhhaft{
+
+position: absolute;
+left: 67.64%;
+right: 5.61%;
+top: 39.05%;
+bottom: 8.98%;
+border-radius: 30px;
+
+  }
+  .haftomTitle{
+    position: absolute;
+    left: 78.59%;
+    right: 15.11%;
+    top: 33.96%;
+    bottom: 61.72%;
+
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+
+    color: #000000;
+
+  }
+  .hft1{
+    position: absolute;
+    left: 82.4%;
+    right: 9.63%;
+    top: 52.23%;
+    bottom: 53.81%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  .hft2{
+    position: absolute;
+    left: 82.81%;
+    right: 9.63%;
+    top: 58.09%;
+    bottom: 47.95%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  .hft3{
+    position: absolute;
+    left: 82.4%;
+    right: 9.49%;
+    top: 63.95%;
+    bottom: 42.09%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  .recwhhasht{
+    position: absolute;
+    left: 36.87%;
+    right: 35.62%;
+    top: 39.05%;
+    bottom: 8.98%;
+    border-radius: 30px;
+  }
+  .hashtomTitle{
+    position: absolute;
+    left: 46.92%;
+    right: 45.53%;
+    top: 33.76%;
+    bottom: 61.91%;
+
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+
+    color: #000000;
+
+  }
+  .hsht1{
+    position: absolute;
+    left: 52.04%;
+    right: 39.36%;
+    top: 52.23%;
+    bottom: 53.81%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  .hsht2{
+    position: absolute;
+    left: 52.46%;
+    right: 39.36%;
+    top: 57.8%;
+    bottom: 48.24%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  .hsht3{
+    position: absolute;
+    left: 51.98%;
+    right: 39.36%;
+    top: 63.37%;
+    bottom: 42.68%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+
+  }
+  .recwhnoh{
+
+position: absolute;
+left: 6.03%;
+right: 66.39%;
+top: 39.05%;
+bottom: 8.98%;
+
+background: rgba(243, 240, 230, 0.8);
+border-radius: 30px;
+  }
+  .nohomTitle{
+    position: absolute;
+    left: 17.53%;
+    right: 78.24%;
+    top: 33.37%;
+    bottom: 62.3%;
+
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 75px;
+
+    color: #000000;
+  }
+  .noh1{
+    position: absolute;
+    left: 22.73%;
+    right: 71.24%;
+    top: 52.23%;
+    bottom: 54.49%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+  }
+  .noh2{
+    position: absolute;
+    left: 23.15%;
+    right: 71.24%;
+    top: 57.8%;
+    bottom: 48.93%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  .noh3{
+    position: absolute;
+    left: 22.66%;
+    right: 71.24%;
+    top: 63.37%;
+    bottom: 43.36%;
+
+    font-family: 'Harmattan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 61px;
+
+    color: #000000;
+
+  }
+  </style>
+{% load static %}
 <html lang="fa">
-    
-<head>
+<link rel="stylesheet" href="{% static 'classes/staticclasses.css' %}">
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>کلاس ها</title>
-   <link rel="stylesheet" href="{% static 'classes/staticclasses.css' %}">
-<head>
-</head>
-<body>
-    {% if user.is_authenticated %}
-    <form action='{% url "scores:scores" %}' method="POST">
-        {% csrf_token %}
+ </head>/
+
     <div class="body">
-        <img class="bck"src="media/background.png" alt="">
+         <img class="bck"src="/media/background.png" width="1580" alt="">
     <div class="header">
         <h3>به سامانه هوشمند سانا خوش آمدید</h3>
     </div>
     <div class="middleBox">
-        <img class="recppl"src="media/Rectangle 1.png" alt="">
-            <img  class="logo"src="media/LOGO3-removebg 1.png" alt="">
+         <img class="recppl"src="/media/Rectangle 1.png" width="1500" alt="">
+            <img  class="logo"src="/media/LOGO3-removebg.png"  width="271" height="272" alt="">
         <h4 class="Namayesh">نمایش کلاس ها</h4>
         <div class="haftom">
-            <img class="recwhhaft"src="media/Rectangle 2.png" alt="">
+             <img class="recwhhaft"src="/media/Rectangle 2.png" alt="">
+
             <h4 class="haftomTitle">هفتم</h4>
-            
-            <a class="hft1 mt-2"href="#">هفت یک</a>
-            <a class="hft2 mt-4"href="#">هفت دو</a>
-            <a class="hft3 mt-8"href="#">هفت سه</a>
-        
+
+            <a class="hft1 mt-2"href="Sana-project-main/scores/templates/scores/create_Students.html">هفت یک</a>
+
+
         </div>
         <div class="hashtom">
-            <img class="recwhhasht"src="media/Rectangle 2.png" alt="">
+            <img class="recwhhasht"src="/media/Rectangle 2.png" alt="">
             <h4 class="hashtomTitle">هشتم</h4>
-         
+
             <a class="hsht1 mt-2"href="#">هشتم یک</a>
-            <a class="hsht2 mt-4"href="#">هشتم دو</a>
-            <a class="hsht3 mt-8"href="#">هشتم سه</a>
-        
-        </div>
+             </div>
         <div class="nohom">
-            <img class="recwhnoh"src="media/Rectangle 2.png" alt="">
+             <img class="recwhnoh"src="/media/Rectangle 2.png" alt="">
             <h4 class="nohomTitle">نهم</h4>
-            
-            <a class="noh1 mt-2"href="#">نهم یک</a>
-            <a class="noh2 mt-4"href="#">نهم دو</a>
+
+            <a class="noh1 mt-2"href="#">نهم یک</a><br/>
+            <a class="noh2 mt-4"href="#">نهم دو</a><br>
             <a class="noh3 mt-8"href="#">نهم سه</a>
-        
+
         </div>
     </div>
     </div>
 </form>
-{% endif %}
+
 </body>
 </html>
