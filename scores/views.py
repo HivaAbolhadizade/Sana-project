@@ -29,7 +29,7 @@ def students_create(request):
 
     form = StudentsForm()
     user = request.user
-    query = Students.objects.filter()
+    query = Students.objects.filter(clas = user)
 
 
     # for st in Students:
@@ -60,7 +60,7 @@ def delete(request):
 def print(request):
     form = StudentsForm()
     user = request.user
-    query = Students.objects.filter()
+    query = Students.objects.filter(clas = user)
 
 
     # for st in Students:
