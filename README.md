@@ -1,6 +1,7 @@
 # Sana - School Student Information System
 Recognition: The Sana project was awarded the best project of the term for its comprehensive analysis and implementation.
-<img src="[https://github.com/user-attachments/assets/c3444cc4-67bb-4c95-a8b1-1fe20a3056a4](https://github.com/user-attachments/assets/4dc5ea1f-2b71-4630-858c-cf12429f0fb2)" alt="description" width="600"/>
+
+<img src="https://github.com/user-attachments/assets/92ea27d5-d3e7-4443-835a-93e3650c46ba" alt="description" width="600"/>
 
 ## Project Overview
 Sana is a web-based system designed to help educational institutions manage student discipline records effectively. This system allows administrators to register students, document disciplinary actions, and generate comprehensive reports on student behavior. Sana was created to improve the discipline management process in schools, making it easier for administrators to track and address disciplinary issues.
