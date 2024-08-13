@@ -76,5 +76,9 @@ We welcome contributions to enhance the Sana project! To contribute, please foll
 <img src="https://github.com/user-attachments/assets/642cbbdf-ff73-4545-87f3-87d464f88798" alt="description" width="600">
 <img src="https://github.com/user-attachments/assets/c3bf065e-e779-4984-9770-14ca1258c010" alt="description" width="600">
 
+## Structural Models:
+<img src="https://github.com/user-attachments/assets/b1c3728f-d452-4f45-88a7-ccfc4f277f08" alt="description" width="600">
+<img src="https://github.com/user-attachments/assets/26e3c0b0-b48e-4798-a768-1e4d9c6d14c3" alt="description" width="600">
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
