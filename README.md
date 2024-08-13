@@ -6,7 +6,7 @@ Recognition: The Sana project was awarded the best project of the term for its c
 ## Project Overview
 Sana is a web-based system designed to help educational institutions manage student discipline records effectively. This system allows administrators to register students, document disciplinary actions, and generate comprehensive reports on student behavior. Sana was created to improve the discipline management process in schools, making it easier for administrators to track and address disciplinary issues.
 
-The project was developed as part of the Systems Analysis and Design course under the guidance of Dr. Mahdieh Ghazvini. The project was recognized as the best project of the term, praised for its thorough software analysis and intuitive design.
+The project was developed as part of the Systems Analysis and Design course under the guidance of Dr. Mahdieh Ghazvini. The project was recognized as the best project of the term and praised for its thorough software analysis and intuitive design.
 
 ## Features
 Student Registration: Easily register and manage student information.
@@ -79,6 +79,14 @@ We welcome contributions to enhance the Sana project! To contribute, please foll
 ## Structural Models:
 <img src="https://github.com/user-attachments/assets/b1c3728f-d452-4f45-88a7-ccfc4f277f08" alt="description" width="600">
 <img src="https://github.com/user-attachments/assets/26e3c0b0-b48e-4798-a768-1e4d9c6d14c3" alt="description" width="600">
+
+## Behavioral Models:
+![Screenshot 2024-08-13 115146](https://github.com/user-attachments/assets/029f3e84-5b62-437e-bd28-28c37c548231)
+![Screenshot 2024-08-13 115216](https://github.com/user-attachments/assets/8777fa8d-0d87-4e3b-af2f-21c8e7db14c1)
+![Screenshot 2024-08-13 115237](https://github.com/user-attachments/assets/e5b5b81e-1ffd-4648-b413-8363c2f8a9c9)
+![Screenshot 2024-08-13 115307](https://github.com/user-attachments/assets/4a22c610-dc9d-40d5-be42-51abc9197962)
+![Screenshot 2024-08-13 115325](https://github.com/user-attachments/assets/ece3546e-8bee-49bf-8711-d4f66dad97ab)
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
