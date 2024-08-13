@@ -71,5 +71,10 @@ We welcome contributions to enhance the Sana project! To contribute, please foll
 4. Commit your changes (git commit -m 'Add new feature').
 5. Push to the branch (git push origin feature-branch).
 6. Open a Pull Request.
+
+## Functional Models:
+<img src="https://github.com/user-attachments/assets/642cbbdf-ff73-4545-87f3-87d464f88798" alt="description" width="600">
+<img src="https://github.com/user-attachments/assets/c3bf065e-e779-4984-9770-14ca1258c010" alt="description" width="600">
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
