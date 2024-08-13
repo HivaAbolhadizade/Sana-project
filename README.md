@@ -73,8 +73,8 @@ We welcome contributions to enhance the Sana project! To contribute, please foll
 6. Open a Pull Request.
 
 ## Functional Models:
-<img src="https://github.com/user-attachments/assets/642cbbdf-ff73-4545-87f3-87d464f88798" alt="description" width="600">
-<img src="https://github.com/user-attachments/assets/c3bf065e-e779-4984-9770-14ca1258c010" alt="description" width="600">
+<img src="https://github.com/user-attachments/assets/642cbbdf-ff73-4545-87f3-87d464f88798" alt="description" width="1000">
+<img src="https://github.com/user-attachments/assets/c3bf065e-e779-4984-9770-14ca1258c010" alt="description" width="1000">
 
 ## Structural Models:
 <img src="https://github.com/user-attachments/assets/b1c3728f-d452-4f45-88a7-ccfc4f277f08" alt="description" width="600">
